@@ -1,0 +1,22 @@
+header {
+  display: flex;
+  font-family: Verdana;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+#logo {
+  color: MediumAquamarine;
+  display: inline-flex;
+  align-items: center;
+}
+
+#logo p {
+  padding: 0 10px;
+}
+
+#nav {
+  color: black;
+  display: flex;
+  justify-content: flex-end;
+}
