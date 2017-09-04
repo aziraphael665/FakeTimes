@@ -1,8 +1,11 @@
 header {
   display: flex;
+  justify-content: space-between;
   font-family: Verdana;
   font-size: 14px;
   font-weight: bold;
+  /* border-bottom: 1px solid black; */
+  padding-bottom: 10px;
 }
 
 #logo {
@@ -19,4 +22,34 @@ header {
   color: black;
   display: flex;
   justify-content: flex-end;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+#nav a {
+  padding: 0px 20px;
+  color: black;
+}
+
+#content {
+  display: flex;
+  justify-content: space-between;
+  border: 1px solid black;
+  height: auto;
+}
+
+.column.large {
+  display: flex;
+  width: 630px;
+  padding-top: 5px;
+}
+
+.column.medium {
+  display: flex;
+  width: 300px;
+}
+
+.column.small {
+  display: flex;
+  width: 240px;
 }
