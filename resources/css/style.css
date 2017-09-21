@@ -42,6 +42,7 @@ header {
   flex-direction: column;
   width: 630px;
   padding-top: 5px;
+  height: auto;
 }
 
 .column-medium {
@@ -65,8 +66,9 @@ header {
 #img_main {
   display: flex;
   background-image: url("../images/img-story-main.png");
-  justify-content: space-around;
-  height: 100%;
+  flex-shrink: 0;
+  background-size: cover;
+  padding: 0 10px;
 }
 
 #img_main p {
@@ -74,6 +76,8 @@ header {
   font-weight: bold;
   font-size: 40px;
   color: white;
+  width: 100%;
+  text-align: center;
 }
 
 #img_story_1 {
